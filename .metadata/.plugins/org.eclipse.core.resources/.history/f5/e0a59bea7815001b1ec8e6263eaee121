@@ -1,0 +1,26 @@
+package br.com.unixyz.modelo;
+
+public class Curso {
+
+	private int id;
+	private String descricao;
+	private String valor;
+	private int cargaHoraria;
+	
+	public Curso() {
+		super();
+	}
+
+	public Curso(int id, String descricao, String valor, int cargaHoraria) {
+		super();
+		this.id = id;
+		this.descricao = descricao;
+		this.valor = valor;
+		this.cargaHoraria = cargaHoraria;
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,52 @@
+package Repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		short dia = Short.parseShort(JOptionPane.showInputDialog("Nacimento dia:"));
+		short mes = Short.parseShort(JOptionPane.showInputDialog("Nacimento mes:"));
+		short ano = Short.parseShort(JOptionPane.showInputDialog("Nacimento ano:"));
+		
+		if (ano>=1950 && ano<=2002) {
+			 ano = Short.parseShort(JOptionPane.showInputDialog("Ano de novo:"));
+		}
+			
+		if (mes>=0 && ano<=13 {
+			 mes = Short.parseShort(JOptionPane.showInputDialog("Mes de novo:"));
+		}
+		
+		System.out.println("Data nascimento: " + dia + mes + ano);
+
+		
+		
+		
+		String email = JOptionPane.showInputDialog("Email:").toLowerCase();
+		
+		while (email.indexOf("@")==-1) {
+			
+			email = JOptionPane.showInputDialog("Email deve ter @").toLowerCase();
+		}
+			System.out.println(email);		
+	
+			String nome = JOptionPane.showInputDialog("nome:").toUpperCase();
+			
+			while (nome.length()<5 || nome.length()>20) {
+				nome = JOptionPane.showInputDialog("Digite entre 5 e 20 caracteres:").toUpperCase();
+			}	
+			System.out.println(nome);		
+
+		
+			
+			
+		
+		
+		
+	}
+
+}

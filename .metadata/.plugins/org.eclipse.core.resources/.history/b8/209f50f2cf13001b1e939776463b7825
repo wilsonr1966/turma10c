@@ -1,0 +1,51 @@
+package br.com.concessionaria.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.concessionaria.modelo.Formula1;
+
+public class TesteFormula1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Criar um objeto
+		Formula1 objeto = null;
+		
+		//Instanciar um objeto
+		Formula1 carro = new Formula1();
+		
+		carro.preencherEscudeira("ferrari");
+		carro.preencherCor("vermelho");
+		carro.preencherValor(100);
+		
+		System.out.println(carro.retornarEscudeira());
+		System.out.println(carro.retornarCor());
+		System.out.println(carro.retornarValor());
+		
+		System.out.println(carro.ligar());
+		System.out.println(carro.desligar());
+		
+		if (JOptionPane.showConfirmDialog(null,"Ligar?","Pergunta",JOptionPane.YES_NO_OPTION)==0) {
+			System.out.println(carro.ligar());
+		}else {
+			System.out.println(carro.desligar());
+		}
+		
+		carro.acelerar(50);
+		carro.acelerar(30);
+		System.out.println(carro.retornarVelocidadeAtual());
+		carro.desacelerar(20);
+		System.out.println(carro.retornarVelocidadeAtual());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

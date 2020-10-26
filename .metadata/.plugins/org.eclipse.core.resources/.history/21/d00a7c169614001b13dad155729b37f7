@@ -1,0 +1,18 @@
+package br.com.unixyz.implementacao;
+
+import br.com.unixyz.modelo.professor;
+
+public class implementarProfessor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		professor professor = new Professor();
+		professor.setId(id);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package Repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemploWhileb {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String nome = JOptionPane.showInputDialog("nome:");
+		
+		while (nome.indexOf("@")==-1) {
+			
+			email = JOptionPane.showInputDialog("Email deve ter @").toLowerCase();
+		}
+			System.out.println(email);		
+			
+	}
+
+}

@@ -1,0 +1,28 @@
+package br.com.unixyz.implementacao;
+
+import br.com.unixyz.modelo.Formacao;
+import br.com.unixyz.util.Magica;
+
+public class ImplementarFormacao {
+
+	public static void main(String[] args) {
+		
+		Formacao formacao = null;
+		char resposta = Magica.s("Digite <T> Tecnologo <B> Bacharelado ou <M> Médio").charAt(0);
+		if (resposta=="T") {
+			formacao = new Tecnologo(
+					Magica.s(msg)
+		}
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+	}
+
+}

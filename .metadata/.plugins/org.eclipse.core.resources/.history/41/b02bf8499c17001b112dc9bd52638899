@@ -1,0 +1,64 @@
+package br.com.colecoes.implementacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import br.com.colecoes.beans.Cargo;
+
+public class TesteListObjeto2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int totalS=0;
+
+
+			List<Cargo> lista = new ArrayList<Cargo>();
+			lista.add(new Cargo("DBA", "JR", 8000));
+			lista.add(new Cargo("PROJETO", "PL", 20000));
+			lista.add(new Cargo("ESTAGIARIO", "SR", 5000));	
+			
+			// System.out.println(lista.get(1).getSalario());
+			
+			for (Cargo objeto : lista) {
+				System.out.println("Nome:" + objeto.getNome());
+				System.out.println("Salario:" + objeto.getSalario());
+				totalS=totalS+getSalario;
+			}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		int totalM=0;
+		int totalS=0;
+		int totalP=0;
+		do {
+			nivel = JOptionPane.showInputDialog("Escolaridade, digite M=Médio, S=Superior ou P=Pós").toUpperCase();
+			if (nivel.equals("M")) {
+				totalM=totalM+1;
+			}else if (nivel.equals("S")) {
+						totalS=totalS+1;
+					}else if (nivel.equals("P")) {
+							totalP=totalP+1;
+			}
+		}while ( nivel.equals("M") || nivel.equals("S") || nivel.equals("P") );
+				
+		System.out.println("Total Médio M....: " + totalM);
+		System.out.println("Total Superior S.: " + totalS);
+		System.out.println("Total Pós P......: " + totalP);
+		
+		
+		
+		
+		
+		
+	}
+
+}

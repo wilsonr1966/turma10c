@@ -1,0 +1,33 @@
+package Decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// AND = &&
+		// OR  = ||
+
+		String nome = JOptionPane.showInputDialog("Digite nome:").toUpperCase();
+		float qtded = Float.parseFloat(JOptionPane.showInputDialog("Quantidade de diárias:"));
+	
+				
+		if (qtded<15) {
+			double total = qtded * (80 + 5.50);
+			System.out.println("Total a pagar: " + total);
+		}else
+			if (qtded==15) {
+				double total = qtded * (80 + 6.00);
+				System.out.println("Total a pagar: " + total);
+			}else 	{
+				double total = qtded * (80 + 8.00);
+				System.out.println("Total a pagar: " + total);
+
+		
+		}
+		
+	}
+
+}

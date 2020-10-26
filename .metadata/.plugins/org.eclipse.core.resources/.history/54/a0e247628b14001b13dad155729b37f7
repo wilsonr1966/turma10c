@@ -1,0 +1,11 @@
+package br.com.unixyz.modelo;
+
+public class Curso {
+
+	private int id;
+	private String descricao;
+	private String valor;
+	private int carga;
+	
+	
+}

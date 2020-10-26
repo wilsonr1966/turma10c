@@ -1,0 +1,36 @@
+package br.com.ecommerce.implementacao;
+
+import br.com.unixyz.util.Magica;
+
+public class ImplementarVenda {
+
+	public static void main(String[] args) {
+		Venda venda = new Venda(
+				Magica.i("Nota Fiscal"),
+				Magica.f("Total"),
+				Magica.f("Desconto"),
+				Magica.s("Data"),				
+				new Cliente(
+						Magica.i("ID"),
+						Magica.s("Nome"),
+						Magica.s("Fone"),
+						new Endereco(
+								
+								
+								
+								
+								)
+						
+						),
+				
+				
+				
+				);
+				
+
+				
+				
+				
+	}
+
+}
